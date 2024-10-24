@@ -6,5 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Currency curr = Currency.INR;
         System.out.println("New Git Repo created");
+        Person person = new Person(1,"Shivi");
+        System.out.println(person.getId());
     }
 }
